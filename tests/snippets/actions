@@ -1,0 +1,10 @@
+const NAMESPACE = 'views/main/';
+
+export const openSampleModal = () => {
+    return {
+        type: NAMESPACE + 'OPEN_SAMPLE_MODAL',
+        payload: {
+            isOpen: true
+        }
+    };
+}
